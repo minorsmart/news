@@ -1,0 +1,51 @@
+---
+title: "Nieuws"
+author: "witek.tenhove@han.nl"
+output: 
+    html_document:
+      toc: yes
+      toc_float: yes
+      css: styles.css
+      self_contained: false
+      includes:
+        in_header: header.html
+---
+<script>
+  $(document).ready(function() {
+    $('#TOC').parent().prepend('<div id=\"nav_logo\"><img src=\"logo.png\"></div>');
+  });
+</script>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+<h1 class="welkom toc-ignore">MSI</h2>
+
+<p class="welkom" >
+Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd en wat gaat er komen? Waar zijn de deelnemers mee bezig? Welke mooie voorbeelden van Smart Industry komen we tegen?
+</p>
+<hr>
+
+###  23 juni 2018 - MSI Pitchdag
+
+Op **woensdag 12 september** zal de MSI Pitchdag plaatsvinden. Ben je één van de partners die een project heeft aangeleverd? Blokkeer dan alvast deze datum in je agenda.
+
+Alle partners krijgen kort de gelegenheid hun project toe te lichten. Via een systeem van speeddates wordt vervolgens de match gemaakt tussen projecteigenaar en onderzoeksteam.
+
+We beginnen om 9:00u en het programma duurt tot 14:00u. Vanaf 12:00u zal een lichte lunch worden aangeboden. In de laatste week van augustus zal nog een reminder naar alle contactpersonen van onze partnerorganisaties worden gestuurd met een mogelijkheid tot bevestiging van deelname.
+
+<br>
+
+### 23 juni 2018 - MSI 2018/19
+
+Op 3 september start de vijfde editie van MSI. Een groep van 31 studenten met [verschillende achtergronden](https://minorsmart.github.io/sep2018/docs/onderwijs/inschrijvingen.nb.html) gaan onderzoeken en ontdekken hoe met nieuwe technologieën waarde kan worden gecreëerd.
+
+Het wordt wederom een vol programma. Alle deelnemers worden de eerste zes weken getraind in web development, Big Data, IoT en nieuwe modellen voor innovatie, samenwerking en waardecreatie. Tussendoor maken ze kennis met onze partners uit de Business Community in de regio, nemen de projectopdrachten aan en voeren een verkennend onderzoek uit.
+
+Vanaf week 7 gaan de deelnemers in teams van twee bij de partnerorganisaties werken aan hun opdracht. Zowel vanuit de organisatie als vanuit de HAN wordt begeleiding aangeboden. Het team is echter zelf verantwoordelijk voor de organisatie hiervan. Dit betekent dat van de voren goede afspraken moeten worden gemaakt over de overlegstructuur en het communicatieplan.
+
+Uiteindelijk dienen de deelnemers aan te tonen dat ze over een set van [Smart competenties](https://docs.google.com/spreadsheets/d/e/2PACX-1vQU6O-kOAqHNLl6i6RV8E--fa9NhidcuSnQybCV8Sr8b7HYTSti7gQvfXkOToUyFLyS44o8AFrIxruB/pubhtml) beschikken. Dit doen ze door zelf gedurende de minor bewijzen te verzamelen en deze in een online portfolio vast te leggen. MSI partners kunnen toegang krijgen tot dit materiaal. Neem hiervoor contact op met Witek ten Hove.
+
+Wekelijks wordt één dag gereserveerd voor kennisontwikkeling. We gaan dan met de hele groep inspiratie op doen. Bijvoorbeeld door bedrijven te bezoeken die Smart Industry hebben toegepast op hun bedrijfsmodel of -processen. Of door trainingen en workshops op het gebied van nieuwe technologieën bij één van onze kennispartners. Dit jaar werken we bijvoorbeeld weer samen met het [HAN Fablab](http://www.fablabarnhem.femplaza.nl/) en de [Minor Smart Manufacturing en Robotics](https://www.smrdelft.nl/) van de Haagse Hogeschool.
+
+Dit [schema](https://docs.google.com/spreadsheets/d/e/2PACX-1vTC-MphJx_bAlpsVAd9b1uc62w7fAXWQDiLe6oRi8HAtW8IEaT569VKrQlGtorjtGL0b6ySCF_Kab_n/pubhtml) geeft een overzicht van het totale educatieve programma. Dit is een dynamisch document. Zodra data en activiteiten bekend worden, zullen deze hier geplaatst worden. 
