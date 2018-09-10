@@ -41,7 +41,7 @@ Voor de meeste studenten was dit de eerste kennismaking met een microprocessor. 
 De workshops zijn ontwikkeld door [SMR Learn](https://www.smrlearn.nl/) en worden op locatie georganiseerd. Het doel is studenten vertrouwd te maken met IoT-aspecten en te inspireren op een andere manier naar bedrijfsautomatisering te kijken.
 
 #### Projectteams
-Deze ochtend hebben de studenten teams gevormd. Deze teams gaan woensdag tijdens de pitchdag praten met de verschillende opdrachtgevers. De studenten hebben zelf een systeem bedacht om de verschillende interesses te inventariseren en koppelingen te maken tussen teamleden en projecten. De definitieve configuratie zal gedurenden de komende twee weken tot stand komen. Klik op onderstaande afbeelding voor de laatste stand van zaken.
+Deze ochtend hebben de studenten teams gevormd. Deze teams gaan woensdag tijdens de pitchdag praten met de verschillende opdrachtgevers. De studenten hebben zelf een systeem bedacht om de verschillende interesses te inventariseren en koppelingen te maken tussen teamleden en projecten. De definitieve configuratie zal gedurenden de komende twee weken tot stand komen.
 
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR9yk20oWBR7gP5JxL1DyvWCLVDdmF-PqBVkTD234AXKTA3swPbSC5w0eC4zybSmxiw5wTHqjM8GPxz/pubhtml" target="_blank">![](projects.png)</a>
 
