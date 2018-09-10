@@ -29,11 +29,11 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 ###  10 september 2018 - Workshop IoT / Projectteams
 
 #### Smart Plants
-Afgelopen vrijdag is de workshop **Smart met IoT** van start gegaan. In zes sessie leren de studenten een IoT-systeem ontwikkelen. Het project voor dit jaar heet **Smart Plants** en de opdracht is om een zichzelf aansturend systeem te ontwikkelen rondom de verzorging van een plant. Met behulp van een aantal sensoren wordt de toestand en omgeving van een plant gemonitord. Zodra een kritische waarde wordt gesignaleerd, acteert het systeem en zal het zorgen dat de plant de juiste verzorging krijgt. Op afstand m.b.v. een app kunnen de sensoren uitgelezen worden en daarmee de toestand van de plant worden gevolgd.
+Afgelopen vrijdag is de workshop **Smart met IoT** van start gegaan. In zes sessies leren de studenten een IoT-systeem ontwikkelen. Het project voor dit jaar heet **Smart Plants** en de opdracht is om een zichzelf aansturend systeem te ontwikkelen rondom de verzorging van een plant. Met behulp van een aantal sensoren wordt de toestand en omgeving van een plant gemonitord. Zodra een kritische waarde wordt gesignaleerd, acteert het systeem en zal het zorgen dat de plant de juiste verzorging krijgt. Op afstand m.b.v. een app kunnen de sensoren uitgelezen worden en daarmee de toestand van de plant worden gevolgd.
 
 Voor de meeste studenten was dit de eerste kennismaking met een microprocessor. Natuurlijk ging er de nodige tijd zitten bij het inrichten van de ontwikkelomgeving (bv. drivers) en de koppeling met de computer (bv. kabels, kapotte aansluitingen). Maar uiteindelijk konden de eerste tests worden uitgevoerd en gingen de eerste ledjes aan of kon de lichtintensiteit worden gemeten.
 
-<video width="400" controls>
+<video width="100%" controls>
   <source src="iot1.mp4" type="video/mp4">
   Your browser does not support HTML5 video.
 </video>
