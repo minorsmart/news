@@ -19,7 +19,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<h1 class="welkom toc-ignore">MSI</h2>
+<h1 class="welkom toc-ignore">Welcome Smart!</h2>
 
 <p class="welkom" >
 Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd en wat gaat er komen? Waar zijn de deelnemers mee bezig? Welke mooie voorbeelden van Smart Industry komen we tegen?
