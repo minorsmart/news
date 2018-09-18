@@ -26,6 +26,22 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 </p>
 <hr>
 
+
+###  17 september 2018 - Pitchdag
+Op 12 september hebben onze partners uit het werkveld hun projecten voorgesteld aan de deelnemers van de minor. We hebben weer een breed en interessant aanbod aan <a href="https://minorsmart.github.io/pitch/" target="_blank">Smart Industry vraagstukken</a> aangeboden gekregen.
+
+Na de pitches hadden de teams de gelegenheid om kort met de vertegenwoordigers van de organisaties te praten en nader kennis te maken. Op maandag hebben we tijdens het werkcollege Smart Start zaken geinventariseerd en kunnen we al een groot aantal teams en bedrijven aan elkaar koppelen.
+
+Wat ons altijd weer opvalt is de energie die alle partijen in de samenwerking steken. Lovenswaardig is bovendien de getoonde flexibiliteit en creativiteit waarmee studenten en partners de projectvraagstukken benaderen. Alles is bespreekbaar en iedereen bewaart een goed oog voor de wensen en belangen van de andere partij. Op deze manier ontstaan vaak nieuwe, verassende vraagstukken die uieindelijk meer waarde gaan toevoegen dan de oorspronkelijke ideeën.
+
+Vanaf nu gaan de teams aan de gang met de aangeleverde vraagstukken. Vaak moeten deze nog scherper worden geformuleerd en aamgepast op de aanwezige know-how. Dit proces zal de komende weken plaatsvinden. De uitkomst van dit proces zal worden vastgelegd in een projectplan.
+
+Ieder team krijgt zowel vanuit het bedrijf als de HAN coaching aangeboden. De keuze om hier gebruik van te maken ligt bij de teamleden. Gedurende het traject zijn pitstops ingepland, waar de status kan worden besproken en kan worden bijgestuurd.
+
+Studenten werken met het project aan bewijzen waarmee ze <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQU6O-kOAqHNLl6i6RV8E--fa9NhidcuSnQybCV8Sr8b7HYTSti7gQvfXkOToUyFLyS44o8AFrIxruB/pubhtml?gid=1883503874&single=true" target="_blank">Smart Industry competenties</a> kunnen aantonen. Bij voldoende niveau worden uiteindelijk 30 studiepunten toegewezen. Deze staan voor een semester full-time studeren (40 uur per week).
+
+In volgende nieuwsitems zullen teams en opdrachtgevers zich nader voorstellen en worden de projecten en de voortgang besproken. 
+
 ###  10 september 2018 - Workshop IoT / Projectteams
 
 #### Smart Plants
@@ -41,7 +57,7 @@ Voor de meeste studenten was dit de eerste kennismaking met een microprocessor. 
 De workshops zijn ontwikkeld door [SMR Learn](https://www.smrlearn.nl/) en worden op locatie georganiseerd. Het doel is studenten vertrouwd te maken met IoT-aspecten en te inspireren op een andere manier naar bedrijfsautomatisering te kijken.
 
 #### Projectteams
-Deze ochtend hebben de studenten teams gevormd. Deze teams gaan woensdag tijdens de pitchdag praten met de verschillende opdrachtgevers. De studenten hebben zelf een systeem bedacht om de verschillende interesses te inventariseren en koppelingen te maken tussen teamleden en projecten. De definitieve configuratie zal gedurende de komende twee weken tot stand komen.
+Deze ochtend hebben de studenten teams gevormd. De teams gaan woensdag tijdens de pitchdag praten met de verschillende opdrachtgevers. De studenten hebben zelf een systeem bedacht om de verschillende interesses te inventariseren en koppelingen te maken tussen teamleden en projecten. De definitieve configuratie zal gedurende de komende twee weken tot stand komen.
 
 <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR9yk20oWBR7gP5JxL1DyvWCLVDdmF-PqBVkTD234AXKTA3swPbSC5w0eC4zybSmxiw5wTHqjM8GPxz/pubhtml" target="_blank">![](projects.png)</a>
 
