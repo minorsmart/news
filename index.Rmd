@@ -26,6 +26,17 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 </p>
 <hr>
 
+###  24 september 2018 - Planttevredenheid
+Nee, de titel is geen typefout. Onze *Smarties* hebben de afgelopen drie weken gewerkt aan een planttevredenheidsysteem m.b.v. IoT. Via sensoren kan het welzijn van een plant worden gemeten, bijv. aardevochtigheid en lichtintensiteit. Via een app op de telefoon kunnen de lichtsensor en vochtigheidssensor gemonitord worden en de kan de lamp en waterpomp aangestuurd worden.<br>
+
+![](iotapp.PNG)
+
+Om de sensors uit te lezen en licht- en watertoevoer aan te sturen wordt een <a href="https://www.espressif.com/en/products/hardware/esp32/overview" target="_blank">ESP32</a> gebruikt. In periode 2 gaan we voor deze schakeling een chassis ontwerpen en in 3D-printen, zodat er een werkend apparaat opgeleverd gaat worden.<br>
+
+![](esp32.JPG)
+
+De workshops *IoT Starters* is ontwikkeld door <a href="https://www.smrlearn.nl/" target="_blank">ESP32</a> en wordt verzorgd door <a href="https://www.linkedin.com/in/tim-geers-0316b4ab/?originalSubdomain=nl" target="_blank">Tim Geers</a>. Dit semester zullen nog een aantal sessies worden georganiseerd waarin studenten de expertise van Tim kunnen inzetten bij IoT-vraagstukken, die zij tijdens het project tegenkomen.
+
 
 ###  17 september 2018 - Verslag Pitchdag en vervolg
 Op 12 september hebben onze partners uit het werkveld hun projecten voorgesteld aan de deelnemers van de minor. We hebben weer een breed en interessant aanbod aan <a href="https://minorsmart.github.io/pitch/" target="_blank">Smart Industry vraagstukken</a> aangeboden gekregen.
@@ -34,9 +45,9 @@ Na de pitches hadden de teams de gelegenheid om kort met de vertegenwoordigers v
 
 Wat ons altijd weer opvalt, is de energie die alle partijen in de samenwerking steken. Lovenswaardig is bovendien de getoonde flexibiliteit en creativiteit waarmee studenten en partners de projectvraagstukken benaderen. Alles is bespreekbaar en iedereen bewaart een goed oog voor de wensen en belangen van de andere partij. Op deze manier ontstaan vaak nieuwe, verassende vraagstukken die uieindelijk meer waarde gaan toevoegen dan de oorspronkelijke ideeën.
 
-Vanaf nu gaan de teams aan de gang met de aangeleverde vraagstukken. Vaak moeten deze nog scherper worden geformuleerd en aamgepast op de aanwezige know-how. Dit proces zal de komende weken plaatsvinden. De uitkomst van dit proces zal worden vastgelegd in een projectplan.
+Vanaf nu gaan de teams aan de gang met de aangeleverde vraagstukken. Vaak moeten deze nog scherper worden geformuleerd en aangepast op de aanwezige know-how. Dit proces zal de komende weken plaatsvinden. De uitkomst hiervan zal worden vastgelegd in een projectplan.
 
-Ieder team krijgt zowel vanuit het bedrijf als de HAN coaching aangeboden. De keuze om hier gebruik van te maken ligt bij de teamleden. Gedurende het traject zijn pitstops ingepland, waar de status kan worden besproken en kan worden bijgestuurd.
+Ieder team krijgt zowel vanuit het bedrijf als de HAN coaching aangeboden. De keuze om hier gebruik van te maken, ligt bij de teamleden. Gedurende het traject zijn pitstops ingepland, waar de status kan worden besproken en kan worden bijgestuurd.
 
 Studenten werken met het project aan bewijzen waarmee ze <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQU6O-kOAqHNLl6i6RV8E--fa9NhidcuSnQybCV8Sr8b7HYTSti7gQvfXkOToUyFLyS44o8AFrIxruB/pubhtml?gid=1883503874&single=true" target="_blank">Smart Industry competenties</a> kunnen aantonen. Bij voldoende niveau worden uiteindelijk 30 studiepunten toegewezen. Deze staan voor een semester full-time studeren (40 uur per week).
 
