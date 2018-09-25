@@ -27,15 +27,15 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 <hr>
 
 ###  24 september 2018 - Planttevredenheid
-Nee, de titel is geen typefout. Onze *Smarties* hebben de afgelopen drie weken gewerkt aan een planttevredenheidsysteem m.b.v. IoT. Via sensoren kan het welzijn van een plant worden gemeten, bijv. aardevochtigheid en lichtintensiteit. Via een app op de telefoon kunnen de lichtsensor en vochtigheidssensor gemonitord worden en de kan de lamp en waterpomp aangestuurd worden.<br>
+Nee, in de titel staat geen typefout. Onze *Smarties* hebben de afgelopen drie weken gewerkt aan een planttevredenheidsysteem m.b.v. IoT. Via sensoren kan het welzijn van een plant worden gemeten, bijv. aardevochtigheid en lichtintensiteit. Via een app op de telefoon kunnen de licht- en vochtigheidssensor gemonitord worden en kunnen de lamp en waterpomp aangestuurd worden.<br>
 
 ![](iotapp.PNG)
 
-Om de sensors uit te lezen en licht- en watertoevoer aan te sturen wordt een <a href="https://www.espressif.com/en/products/hardware/esp32/overview" target="_blank">ESP32</a> gebruikt. In periode 2 gaan we voor deze schakeling een chassis ontwerpen en in 3D-printen, zodat er een werkend apparaat opgeleverd gaat worden.<br>
+Om de sensoren uit te lezen en licht- en watertoevoer aan te sturen wordt een <a href="https://www.espressif.com/en/products/hardware/esp32/overview" target="_blank">ESP32</a> gebruikt. In periode 2 gaan we voor deze schakeling een chassis ontwerpen en in 3D printen, zodat er een werkend apparaat opgeleverd gaat worden.<br>
 
 ![](esp32.JPG)
 
-De workshops *IoT Starters* is ontwikkeld door <a href="https://www.smrlearn.nl/" target="_blank">ESP32</a> en wordt verzorgd door <a href="https://www.linkedin.com/in/tim-geers-0316b4ab/?originalSubdomain=nl" target="_blank">Tim Geers</a>. Dit semester zullen nog een aantal sessies worden georganiseerd waarin studenten de expertise van Tim kunnen inzetten bij IoT-vraagstukken, die zij tijdens het project tegenkomen.
+De workshops *IoT Starters* is ontwikkeld door <a href="https://www.smrlearn.nl/" target="_blank">SMRLearn</a> en wordt verzorgd door <a href="https://www.linkedin.com/in/tim-geers-0316b4ab/?originalSubdomain=nl" target="_blank">Tim Geers</a>. Dit semester zullen nog een aantal sessies worden georganiseerd waarin studenten de expertise van Tim kunnen inzetten bij IoT-vraagstukken, die zij tijdens het project tegenkomen.
 
 
 ###  17 september 2018 - Verslag Pitchdag en vervolg
