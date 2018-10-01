@@ -47,6 +47,18 @@ Voor veel studenten was de “tafelrede” van Bas Luiting <a href="http://www.b
 Het programma werd afgesloten door een inspiratielezing over de smart city trends door Kees Jansen in het oorspronkelijke Philips NatLab, waar in de vorige eeuw vele vindingen van Philips Research zijn gepresenteerd ter toetsing bij collega’s, directies en stakeholders.
 Na de netwerk borrel bracht de bus, de trein of de eigen auto de studenten en de andere deelnemers weer thuis om nog lang na te genieten en door te denken op de vele voorbeelden van smart city inspiraties.
 
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(bsplus)
+bs_carousel(id = "bmc", use_indicators = TRUE) %>%
+  bs_append(content = bs_carousel_image(src = "vr1.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "vr2.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "vr3.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "field.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "container.jpeg")) %>%
+  bs_append(content = bs_carousel_image(src = "plugincity.jpeg"))
+```
+
+
 
 ### 1 oktober 2018 - Business Model Canvas
 
