@@ -19,12 +19,48 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<h1 class="welkom toc-ignore">Welcome Smart!</h2>
+<h1 class="welkom toc-ignore">Welcome Smart!</h1>
 
 <p class="welkom" >
 Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd en wat gaat er komen? Waar zijn de deelnemers mee bezig? Welke mooie voorbeelden van Smart Industry komen we tegen?
 </p>
 <hr>
+
+### 1 oktober 2018 - Business Model Canvas
+
+Deze keer een bericht van <a href="https://tinyurl.com/ycxdm8z2" target="_blank">Marno</a>: 
+
+Tijdens de workshop van Geert Rensen is er gekeken naar 'smart oplossingen' van een verzekeringsmaatschappij. De casus was als volgt:</br>
+
+De Turkse regering had besloten om recentelijk de premies van autoverzekeringen collectief te verlagen met 30%. Hierdoor zijn de auto casco verzekeringen verliesgevend geworden. De verzekeraar wil graag actief blijven in de markt. Het verzekeringsbedrijf verkoopt de polissen via een agentennetwerk. Het bedrijf heeft dus geen rechtstreeks contact met zijn klanten.</br>
+
+De vraag was: Op welke wijze zou deze verzekeraar – met behulp van Smart concepten – haar business model kunnen aanpassen, om toch (winstgevend) actief te kunnen blijven in deze markt? De uitkomst hiervan is weergeven is een businessmodel canvas met geel als huidige situatie en groen als nieuwe situatie.</br>
+
+![](bmcmarno.PNG)
+
+De smartoplossingen waren: 1. Het aanbrengen van een chatbot. Hierdoor wordt het mogelijk om de kosten van een supportafdeling te reduceren voor de FAQ, 2. was het introduceren van een meetapparaatje in de auto die de acceleratie van de auto meet. Aan hand hiervan kan het rijgedrag van de bestuurder bepaald worden. Dit maakt het mogelijk om een variabele verzekeringspremie te gaan hanteren, afhankelijk van de rijstijl. Deze investering moet aanmoedigen om schades te reduceren.</br>
+
+### Wat hebben de minorstudenten geleerd?
+De minorstudenten hebben geleerd om een casus te bestuderen en deze te reflecteren in een Business model Canvas. Verder hebben de minorstudenten geleerd dat er een verschil is in innovaties als het gaat om grote en kleine bedrijven. Bij kleine bedrijven kunnen innovaties veel sneller plaatsvinden. Bij grote bedrijven is het echter lastiger, omdat de organisatie meerdere 'managementlagen' heeft.
+
+### Wat vond ik persoonlijk van de workshop?
+Deze workshop heeft mij meer inzicht gegeven in het nut van een Business model Canvas. Het onderwerp Innovatiemanagement vond ik interessant om aan te horen. Ik zal de volgende keer graag de relatie willen zien tussen Innovatiemanagement en Changemanagement. Aangezien je met Changemanagement innovaties makkelijker kunt implementeren in een organisatie. Geert Rensen heeft veel meegemaakt, het was leerzaam om zijn levens carrière aan te horen!
+
+Met de workshop van Geert Rensen is er gewerkt aan de volgende competenties:</br>
+
+1. Professionaliseren (SS91) (competentie zeven)
+Met de workshop van Geert Rensen heb ik mijn mening gedeeld met de overleg groep. Tevens heb ik de oplossing van het 'meetapparaatje' aangedragen. Dit komt omdat ik de opleiding automotive volg en daar kennis van heb opgedaan tijdens een project. Hiermee heb ik de teamgenoten een 'nieuw stukje' kennis aangedragen en heb ik kennis verspreid en gedeeld met de groep. </br>
+2. Herkennen / Analyseren / Diagnosticeren (SS11) (competentie één)
+Voordat je nieuwe oplossingen kunt aandragen moet je eerst de huidige situatie herkennen en analyseren. Dit heb ik gedaan door van de huidige situatie een Business model Canvas te maken. In de volgende stap moet je tot een oplossing komen. Dan moet je de huidige situatie diagnosticeren. Om tot een oplossing heb ik het Business model Canvas opnieuw ingevuld. Door het opnieuw in te vullen wordt het duidelijk waar de verbeterpunten liggen in een businesscase. </br>
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+library(bsplus)
+bs_carousel(id = "bmc", use_indicators = TRUE) %>%
+  bs_append(content = bs_carousel_image(src = "groep.JPG")) %>%
+  bs_append(content = bs_carousel_image(src = "brainstorm.JPG")) %>%
+  bs_append(content = bs_carousel_image(src = "bmc.JPG"))
+```
+
 
 ###  24 september 2018 - Planttevredenheid
 Nee, in de titel staat geen typefout. Onze *Smarties* hebben de afgelopen drie weken gewerkt aan een planttevredenheidsysteem m.b.v. IoT. Via sensoren kan het welzijn van een plant worden gemeten, bijv. aardevochtigheid en lichtintensiteit. Met een app op de telefoon kunnen de licht- en vochtigheidssensor gemonitord worden en kunnen de lamp en waterpomp aangestuurd worden.<br>
@@ -128,4 +164,4 @@ Uiteindelijk dienen de deelnemers aan te tonen dat ze over een set van [Smart co
 
 Wekelijks wordt één dag gereserveerd voor kennisontwikkeling. We gaan dan met de hele groep inspiratie op doen. Bijvoorbeeld door bedrijven te bezoeken die Smart Industry hebben toegepast op hun bedrijfsmodel of -processen. Of door trainingen en workshops op het gebied van nieuwe technologieën bij één van onze kennispartners. Dit jaar werken we bijvoorbeeld weer samen met het [HAN Fablab](http://www.fablabarnhem.femplaza.nl/) en de [Minor Smart Manufacturing en Robotics](https://www.smrdelft.nl/) van de Haagse Hogeschool.
 
-Dit [schema](https://docs.google.com/spreadsheets/d/e/2PACX-1vTC-MphJx_bAlpsVAd9b1uc62w7fAXWQDiLe6oRi8HAtW8IEaT569VKrQlGtorjtGL0b6ySCF_Kab_n/pubhtml) geeft een overzicht van het totale educatieve programma. Het is een dynamisch document. Zodra data en activiteiten bekend worden, zullen deze hier toegevoegd worden. 
+Dit [schema](https://docs.google.com/spreadsheets/d/e/2PACX-1vTC-MphJx_bAlpsVAd9b1uc62w7fAXWQDiLe6oRi8HAtW8IEaT569VKrQlGtorjtGL0b6ySCF_Kab_n/pubhtml) geeft een overzicht van het totale educatieve programma. Het is een dynamisch document. Zodra data en activiteiten bekend worden, zullen deze hier toegevoegd worden.
