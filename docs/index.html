@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="radix" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+  <!--radix_placeholder_meta_tags-->
+  <title>FTOnderzoekt BDA: Nieuws</title>
+  
+  
+  
+  <meta name="article:author" content="witek.tenhove@han.nl"/>
+  
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="FTOnderzoekt BDA: Nieuws"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="FTOnderzoekt BDA"/>
+  
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="FTOnderzoekt BDA: Nieuws"/>
+  
+  <!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","author","output"]}},"value":[{"type":"character","attributes":{},"value":["Nieuws"]},{"type":"character","attributes":{},"value":["witek.tenhove@han.nl"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["html_document"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float","css","self_contained","includes"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]},{"type":"character","attributes":{},"value":["styles.css"]},{"type":"logical","attributes":{},"value":[false]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["in_header"]}},"value":[{"type":"character","attributes":{},"value":["header.html"]}]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  
+  <script type="application/javascript">
+  
+    window.headroom_prevent_pin = false;
+  
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+  
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+  
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+  
+      // responsive menu
+      $('.radix-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+  
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+  
+  <style type="text/css">
+  
+  /* Theme (user-documented overrideables for nav appearance) */
+  
+  .radix-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #455a64;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  
+  .radix-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .radix-site-nav a:hover {
+    color: white;
+  }
+  
+  @media print {
+    .radix-site-nav {
+      display: none;
+    }
+  }
+  
+  .radix-site-header {
+  
+  }
+  
+  .radix-site-footer {
+  
+  }
+  
+  
+  /* Site Header */
+  
+  .radix-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+  
+  .radix-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .radix-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+  
+  
+  .radix-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+  
+  .radix-site-header a,
+  .radix-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+  
+  .radix-site-header .title {
+    font-size: 18px;
+  }
+  
+  .radix-site-header .logo {
+    padding: 0;
+  }
+  
+  .radix-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+  
+  .radix-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+  
+  
+  
+  @media screen and (min-width: 1000px) {
+    .radix-site-header .logo img {
+      display: inline-block;
+    }
+    .radix-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .radix-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .radix-site-header .title {
+      padding-left: 12px;
+    }
+  }
+  
+  
+  .radix-site-header .nav-toggle {
+    display: none;
+  }
+  
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+  
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-dropdown-active {
+    display: block;
+  }
+  
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+  
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+  
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .radix-site-header a, .radix-site-header .nav-dropdown  {display: none;}
+    .radix-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .radix-site-header .title {
+      margin-left: 0;
+    }
+    .radix-site-header .nav-right {
+      margin-right: 0;
+    }
+    .radix-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .radix-site-header.responsive {position: relative;}
+    .radix-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .radix-site-header.responsive a,
+    .radix-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .radix-site-header.responsive .nav-left,
+    .radix-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .radix-site-header.responsive .nav-dropdown {float: none;}
+    .radix-site-header.responsive .nav-dropdown-content {position: relative;}
+    .radix-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  /* Site Footer */
+  
+  .radix-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  
+  /* Headroom */
+  
+  d-title {
+    padding-top: 6rem;
+  }
+  
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+  
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+  
+  .headroom--unpinned {
+    top: -100px;
+  }
+  
+  .headroom--pinned {
+    top: 0;
+  }
+  
+  </style>
+  
+  <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet"/>
+  <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+  <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+  
+  <style type="text/css">
+  
+  body {
+    background-color: white;
+  }
+  
+  .pandoc-table {
+    width: 100%;
+  }
+  
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+  
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+  
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+  
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+  
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .shaded .shaded-content {
+    background: white;
+  }
+  
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  d-article {
+    padding-bottom: 30px;
+  }
+  
+  d-appendix {
+    padding-top: 30px;
+  }
+  
+  d-article>p>img {
+    width: 100%;
+  }
+  
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+  
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+  
+  /* CSS for table of contents */
+  
+  .d-toc {
+    color: rgba(0,0,0,0.8);
+    font-size: 0.8em;
+    line-height: 1em;
+  }
+  
+  .d-toc-header {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 1.3em;
+  }
+  
+  .d-toc a {
+    border-bottom: none;
+  }
+  
+  .d-toc ul {
+    padding-left: 0;
+  }
+  
+  .d-toc li>ul {
+    padding-top: 0.8em;
+    padding-left: 16px;
+    margin-bottom: 0.6em;
+  }
+  
+  .d-toc ul,
+  .d-toc li {
+    list-style-type: none;
+  }
+  
+  .d-toc li {
+    margin-bottom: 0.9em;
+  }
+  
+  .d-toc-separator {
+    margin-top: 20px;
+    margin-bottom: 2em;
+  }
+  
+  .d-article-with-toc {
+    border-top: none;
+    padding-top: 0;
+  }
+  
+  
+  
+  /* Tweak code blocks (note that this CSS is repeated above in an injection
+     into the d-code shadow dom) */
+  
+  pre.d-code code.d-code {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+  
+  pre.text-output {
+  
+    font-size: 12px;
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  @media(min-width: 768px) {
+  pre.d-code code.d-code  {
+      padding-left: 18px;
+      font-size: 14px;
+  }
+  pre.text-output {
+    font-size: 14px;
+  }
+  }
+  
+  /* Figure */
+  
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+  
+  .figure img {
+    width: 100%;
+  }
+  
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+  
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+  
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+  
+  
+  
+  /* Tweak 1000px media break to show more text */
+  
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+  
+    .grid {
+      grid-column-gap: 16px;
+    }
+  
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+  
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+  
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+  
+  
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+  
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  
+  /* Social footer */
+  
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+  
+  .disqus-comments {
+    margin-right: 30px;
+  }
+  
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+  
+  #disqus_thread {
+    margin-top: 30px;
+  }
+  
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+  
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+  
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+  
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+  
+  
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+  
+  
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+  
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+  
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+  
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+  
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+  
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+  
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+  
+  
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+  
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+  
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+  
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+  
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+  
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+  
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+  
+  </style>
+  
+  <script type="application/javascript">
+  
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+  
+  // show body when load is complete
+  function on_load_complete() {
+  
+    // set body to visible
+    document.body.style.visibility = 'visible';
+  
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+  
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+  
+  function init_distill() {
+  
+    init_common();
+  
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+  
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+  
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+  
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+  
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+  
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+  
+    // create d-bibliography
+    var bibliography = $('<d-bibliography></d-bibliography>');
+    $('#distill-bibliography').wrap(bibliography);
+  
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+  
+    // replace citations with <d-cite>
+    $('.citation').each(function(i, val) {
+      appendix = true;
+      var cites = $(this).attr('data-cites').split(" ");
+      var dt_cite = $('<d-cite></d-cite>');
+      dt_cite.attr('key', cites.join());
+      $(this).replaceWith(dt_cite);
+    });
+    // remove refs
+    $('#refs').remove();
+  
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+  
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-toc a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+  
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+  
+    // replace code blocks with d-code
+    $('pre>code').each(function(i, val) {
+      var code = $(this);
+      var pre = code.parent();
+      var clz = "";
+      var language = pre.attr('class');
+      if (language) {
+        // map unknown languages to "clike" (without this they just dissapear)
+        if ($.inArray(language, ["bash", "clike", "css", "go", "html",
+                                 "javascript", "js", "julia", "lua", "markdown",
+                                 "markup", "mathml", "python", "svg", "xml"]) == -1)
+          language = "clike";
+        language = ' language="' + language + '"';
+        var dt_code = $('<d-code block' + language + clz + '></d-code>');
+        dt_code.text(code.text());
+        pre.replaceWith(dt_code);
+      } else {
+        code.addClass('text-output').unwrap().changeElementType('pre');
+      }
+    });
+  
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+  
+      // capture layout
+      var layout = $(this).attr('data-layout');
+  
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('d-code, pre.text-output, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+  
+  
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+  
+    // load distill framework
+    load_distill_framework();
+  
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+  
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+  
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+  
+      // table of contents
+      if (have_authors) // adjust border if we are in authors
+        $('.d-toc').parent().addClass('d-article-with-toc');
+  
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+  
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+  
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+  
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+  
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+  
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+  
+      // inject pre code styles (can't do this with a global stylesheet b/c a shadow root is used)
+      $('d-code').each(function(i, val) {
+        var style = document.createElement('style');
+        style.innerHTML = 'pre code { padding-left: 10px; font-size: 12px; border-left: 2px solid rgba(0,0,0,0.1); } ' +
+                          '@media(min-width: 768px) { pre code { padding-left: 18px; font-size: 14px; } }';
+        if (this.shadowRoot)
+          this.shadowRoot.appendChild(style);
+      });
+  
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+  
+      // clear polling timer
+      clearInterval(tid);
+  
+      // show body now that everything is ready
+      on_load_complete();
+    }
+  
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+  
+  }
+  
+  function init_downlevel() {
+  
+    init_common();
+  
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+  
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+  
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+  
+    // remove toc
+    $('.d-toc-header').remove();
+    $('.d-toc').remove();
+    $('.d-toc-separator').remove();
+  
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+  
+  
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+  
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+  
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+  
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+  
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+  
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+  
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+  
+    $('body').addClass('downlevel');
+  
+    on_load_complete();
+  }
+  
+  
+  function init_common() {
+  
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+  
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+  
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+  
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+  
+    // mark figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      $(this).find('img, .html-widget').css('width', '100%');
+    });
+  
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+  
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.radix-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace("index.html", "./"));
+      });
+    }
+  
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+  
+  
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+  
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+  
+  </script>
+  
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Nieuws","authors":[{"author":"witek.tenhove@han.nl","authorURL":"#","affiliation":"&nbsp;","affiliationURL":"#"}]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="radix-site-nav radix-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">FTOnderzoekt BDA</a>
+</div>
+<div class="nav-right">
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Nieuws</h1>
+
+</div>
+
+<div class="d-byline">
+  
+  <a href="mailto:witek.tenhove@han.nl">witek.tenhove@han.nl</a>
+  
+
+</div>
+
+<div class="d-article">
+<script>
+  $(document).ready(function() {
+    $('#TOC').parent().prepend('<div id=\"nav_logo\"><img src=\"logo.png\"></div>');
+  });
+</script>
+<h1 class="welkom toc-ignore">
+Welcome Smart!
+</h1>
+<p class="welkom">
+Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd en wat gaat er komen? Waar zijn de deelnemers mee bezig? Welke mooie voorbeelden van Smart Industry komen we tegen?
+</p>
+<hr>
+<h3 id="oktober-2018---excursie-smart-city-strijp-s-in-eindhoven">1 oktober 2018 - Excursie Smart City / STRIJP-S in Eindhoven</h3>
+<p>Dinsdag 25 september vroeg op pad, want om 8.30u vertrok de bus met minor studenten en enkele medewerkers van partner bedrijven naar Eindhoven voor een excursie naar een Smart-City in Ontwikkeling. De gemeente Duiven was de gastheer die deze dag organiseerde voor medewerkers van bedrijven, de gemeente Duiven en studenten van de Minor Smart Industry. Het programma werd door de studenten zeer gewaardeerd. Boeiend qua inhoud, entertaining in ervaring en uitstekend in facilitering van lunch, borrel en bus.</p>
+<p>Na de ontvangst in het Video-lab met koffie en koek ter aanvulling van het ontbijt werd bij de maquette van Strijp-S het smart stadsdeel van Eindhoven toegelicht hoe de transformatie van industrie-stad op de fundamenten van de vele ‘Philips-gebouwen’ naar een Smart-City al in volle gang is en de komende jaren nog verder wordt ontwikkeld. Van de glas-lampen naar glas-vezels in breedbandige verbindingen en nieuwe toepassingen van digitalisering tussen partners in de stad: bewoners en (nieuwe) bedrijven groot en klein, nieuwe initiatieven en nieuwe huisvesting voor smart werken en wonen en leven in de ‘slimme stad’.</p>
+<p><img src="strijp1.png" /></p>
+<p>In het bezoek aan <a href="http://www.enversed.com/" target="_blank">Enversed</a> (Europa’s grootste Virtual Reality Center) werd entertaining gecombineerd met een concrete uitgekiende ervaring in Virtual Reality. Het verschil vergaagt in realiteit: samenwerken aan de lopende band van een hamburger-restaurant op straffe van ‘ontslag’ bij te geringe correcte productie. De bezoekers zijn in feite proefkonijnen voor de ontwikkeling van Virtual-Experience die het bedrijf met 20 medewerkers ook voor diverse klanten ontwikkeld en in meer dan 10 experience test-rooms laat ‘spelen. Zo wordt virtualiteit verder ontwikkeld. Iedereen mocht zich anderhalf uur virtueeel uitleven in deze verassende digitaal volledig maakbare werelden.</p>
+<p><img src="strijp2.png" /></p>
+<p>De Smart-Walk door Strijp-S werd geregistreerd in een Groupselfie door de publiek beschikbare camera die via een scancode wordt geactiveerd. Voor veel studenten was de “tafelrede” van Bas Luiting <a href="http://www.bb-bricks.nl/" target="_blank">(www.bb-bricks.nl)</a> en het bezoek aan <a href="http://www.plugincity.nl/" target="_blank">PlugIn city</a> een inspirerende (nieuwe) kennismaking met circulair ondernemen. Plugin city is het creatieve circulaire hart in Strijp-S waar met passie door pluggers een nieuwe werkelijkheid uit oude (afval)materialen wordt gepresenteerd en gerealiseerd. Vooral de studiekamerkontainer kon vele studenten wel bekoren al was het alleen al om de kamerhuur te kunnen halveren.</p>
+<p><img src="strijp3.png" /></p>
+<p>Het programma werd afgesloten door een inspiratielezing over de smart city trends door Kees Jansen in het oorspronkelijke Philips NatLab, waar in de vorige eeuw vele vindingen van Philips Research zijn gepresenteerd ter toetsing bij collega’s, directies en stakeholders. Na de netwerk borrel bracht de bus, de trein of de eigen auto de studenten en de andere deelnemers weer thuis om nog lang na te genieten en door te denken op de vele voorbeelden van smart city inspiraties.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div id="bmc" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#bmc" data-slide-to="0" class="active"></li>
+<li data-target="#bmc" data-slide-to="1"></li>
+<li data-target="#bmc" data-slide-to="2"></li>
+<li data-target="#bmc" data-slide-to="3"></li>
+<li data-target="#bmc" data-slide-to="4"></li>
+<li data-target="#bmc" data-slide-to="5"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<img src="vr1.jpeg" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="vr2.jpeg" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="vr3.jpeg" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="field.jpeg" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="container.jpeg" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="plugincity.jpeg" class="img-responsive center-block"/>
+</div>
+</div>
+<a class="left carousel-control" href="#bmc" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#bmc" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<h3 id="oktober-2018---business-model-canvas">1 oktober 2018 - Business Model Canvas</h3>
+<p>Deze keer een bericht van <a href="https://tinyurl.com/ycxdm8z2" target="_blank">Marno</a>:</p>
+<p>Tijdens de workshop van Geert Rensen is er gekeken naar ‘smart oplossingen’ van een verzekeringsmaatschappij. De casus was als volgt:</br></p>
+<p>De Turkse regering had besloten om recentelijk de premies van autoverzekeringen collectief te verlagen met 30%. Hierdoor zijn de auto casco verzekeringen verliesgevend geworden. De verzekeraar wil graag actief blijven in de markt. Het verzekeringsbedrijf verkoopt de polissen via een agentennetwerk. Het bedrijf heeft dus geen rechtstreeks contact met zijn klanten.</br></p>
+<p>De vraag was: Op welke wijze zou deze verzekeraar – met behulp van Smart concepten – haar business model kunnen aanpassen, om toch (winstgevend) actief te kunnen blijven in deze markt? De uitkomst hiervan is weergeven is een businessmodel canvas met geel als huidige situatie en groen als nieuwe situatie.</br></p>
+<p><img src="bmcmarno.PNG" /></p>
+<p>De smartoplossingen waren: 1. Het aanbrengen van een chatbot. Hierdoor wordt het mogelijk om de kosten van een supportafdeling te reduceren voor de FAQ, 2. was het introduceren van een meetapparaatje in de auto die de acceleratie van de auto meet. Aan hand hiervan kan het rijgedrag van de bestuurder bepaald worden. Dit maakt het mogelijk om een variabele verzekeringspremie te gaan hanteren, afhankelijk van de rijstijl. Deze investering moet aanmoedigen om schades te reduceren.</br></p>
+<h4 id="wat-hebben-de-minorstudenten-geleerd">Wat hebben de minorstudenten geleerd?</h4>
+<p>De minorstudenten hebben geleerd om een casus te bestuderen en deze te reflecteren in een Business model Canvas. Verder hebben de minorstudenten geleerd dat er een verschil is in innovaties als het gaat om grote en kleine bedrijven. Bij kleine bedrijven kunnen innovaties veel sneller plaatsvinden. Bij grote bedrijven is het echter lastiger, omdat de organisatie meerdere ‘managementlagen’ heeft.</p>
+<h4 id="wat-vond-ik-persoonlijk-van-de-workshop">Wat vond ik persoonlijk van de workshop?</h4>
+<p>Deze workshop heeft mij meer inzicht gegeven in het nut van een Business model Canvas. Het onderwerp Innovatiemanagement vond ik interessant om aan te horen. Ik zal de volgende keer graag de relatie willen zien tussen Innovatiemanagement en Changemanagement. Aangezien je met Changemanagement innovaties makkelijker kunt implementeren in een organisatie. Geert Rensen heeft veel meegemaakt, het was leerzaam om zijn levens carrière aan te horen!</p>
+<p>Met de workshop van Geert Rensen is er gewerkt aan de volgende competenties:</br></p>
+<ol type="1">
+<li>Professionaliseren (SS91) (competentie zeven) Met de workshop van Geert Rensen heb ik mijn mening gedeeld met de overleg groep. Tevens heb ik de oplossing van het ‘meetapparaatje’ aangedragen. Dit komt omdat ik de opleiding automotive volg en daar kennis van heb opgedaan tijdens een project. Hiermee heb ik de teamgenoten een ‘nieuw stukje’ kennis aangedragen en heb ik kennis verspreid en gedeeld met de groep. </br></li>
+<li>Herkennen / Analyseren / Diagnosticeren (SS11) (competentie één) Voordat je nieuwe oplossingen kunt aandragen moet je eerst de huidige situatie herkennen en analyseren. Dit heb ik gedaan door van de huidige situatie een Business model Canvas te maken. In de volgende stap moet je tot een oplossing komen. Dan moet je de huidige situatie diagnosticeren. Om tot een oplossing heb ik het Business model Canvas opnieuw ingevuld. Door het opnieuw in te vullen wordt het duidelijk waar de verbeterpunten liggen in een businesscase. </br></li>
+</ol>
+<div class="layout-chunk" data-layout="l-body">
+<div id="bmc" class="carousel slide" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#bmc" data-slide-to="0" class="active"></li>
+<li data-target="#bmc" data-slide-to="1"></li>
+<li data-target="#bmc" data-slide-to="2"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<img src="groep.JPG" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="brainstorm.JPG" class="img-responsive center-block"/>
+</div>
+<div class="item">
+<img src="bmc.JPG" class="img-responsive center-block"/>
+</div>
+</div>
+<a class="left carousel-control" href="#bmc" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#bmc" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<h3 id="september-2018---planttevredenheid">24 september 2018 - Planttevredenheid</h3>
+<p>Nee, in de titel staat geen typefout. Onze <em>Smarties</em> hebben de afgelopen drie weken gewerkt aan een planttevredenheidsysteem m.b.v. IoT. Via sensoren kan het welzijn van een plant worden gemeten, bijv. aardevochtigheid en lichtintensiteit. Met een app op de telefoon kunnen de licht- en vochtigheidssensor gemonitord worden en kunnen de lamp en waterpomp aangestuurd worden.<br></p>
+<p><img src="iotapp.PNG" /></p>
+<p>Om de sensoren uit te lezen en licht- en watertoevoer aan te sturen wordt een <a href="https://www.espressif.com/en/products/hardware/esp32/overview" target="_blank">ESP32</a> gebruikt. In periode 2 gaan we voor deze schakeling een chassis ontwerpen en in 3D printen, zodat er een werkend apparaat opgeleverd gaat worden.<br></p>
+<p><img src="esp32.JPG" /></p>
+<p>De workshops <em>IoT Starters</em> is ontwikkeld door <a href="https://www.smrlearn.nl/" target="_blank">SMRLearn</a> en wordt verzorgd door <a href="https://www.linkedin.com/in/tim-geers-0316b4ab/?originalSubdomain=nl" target="_blank">Tim Geers</a>. Dit semester zullen nog een aantal sessies worden georganiseerd waarin studenten de expertise van Tim kunnen inzetten bij IoT-vraagstukken, die zij tijdens het project tegenkomen.</p>
+<h3 id="september-2018---verslag-pitchdag-en-vervolg">17 september 2018 - Verslag Pitchdag en vervolg</h3>
+<p>Op 12 september hebben onze partners uit het werkveld hun projecten voorgesteld aan de deelnemers van de minor. We hebben weer een breed en interessant aanbod aan <a href="https://minorsmart.github.io/pitch/" target="_blank">Smart Industry vraagstukken</a> aangeboden gekregen.</p>
+<p>Na de pitches hadden de teams de gelegenheid om kort met de vertegenwoordigers van de organisaties te praten en nader kennis te maken. Op maandag hebben we tijdens het werkcollege Smart Start zaken geinventariseerd en kunnen we al een groot aantal teams en bedrijven aan elkaar koppelen.</p>
+<p>Wat ons altijd weer opvalt, is de energie die alle partijen in de samenwerking steken. Lovenswaardig is bovendien de getoonde flexibiliteit en creativiteit waarmee studenten en partners de projectvraagstukken benaderen. Alles is bespreekbaar en iedereen bewaart een goed oog voor de wensen en belangen van de andere partij. Op deze manier ontstaan vaak nieuwe, verassende vraagstukken die uieindelijk meer waarde gaan toevoegen dan de oorspronkelijke ideeën.</p>
+<p>Vanaf nu gaan de teams aan de gang met de aangeleverde vraagstukken. Vaak moeten deze nog scherper worden geformuleerd en aangepast op de aanwezige know-how. Dit proces zal de komende weken plaatsvinden. De uitkomst hiervan zal worden vastgelegd in een projectplan.</p>
+<p>Ieder team krijgt zowel vanuit het bedrijf als de HAN coaching aangeboden. De keuze om hier gebruik van te maken, ligt bij de teamleden. Gedurende het traject zijn pitstops ingepland, waar de status kan worden besproken en kan worden bijgestuurd.</p>
+<p>Studenten werken met het project aan bewijzen waarmee ze <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQU6O-kOAqHNLl6i6RV8E--fa9NhidcuSnQybCV8Sr8b7HYTSti7gQvfXkOToUyFLyS44o8AFrIxruB/pubhtml?gid=1883503874&single=true" target="_blank">Smart Industry competenties</a> kunnen aantonen. Bij voldoende niveau worden uiteindelijk 30 studiepunten toegewezen. Deze staan voor een semester full-time studeren (40 uur per week).</p>
+<p>In volgende nieuwsitems zullen teams en opdrachtgevers zich nader voorstellen en worden de projecten en de voortgang besproken.</p>
+<h3 id="september-2018---workshop-iot-projectteams">10 september 2018 - Workshop IoT / Projectteams</h3>
+<h4 id="smart-plants">Smart Plants</h4>
+<p>Afgelopen vrijdag is de workshop <em>Smart met IoT</em> van start gegaan. In zes sessies leren de studenten een IoT-systeem ontwikkelen. Het project voor dit jaar heet <em>Smart Plants</em> en de opdracht is om een zichzelf aansturend systeem te ontwikkelen rondom de verzorging van een plant. Met behulp van een aantal sensoren wordt de toestand en omgeving van een plant gemonitord. Zodra een kritische waarde wordt gesignaleerd, acteert het systeem en zal het zorgen dat de plant de juiste verzorging krijgt. Op afstand m.b.v. een app kunnen de sensoren uitgelezen worden en daarmee de toestand van de plant worden gevolgd.</p>
+<p>Voor de meeste studenten was dit de eerste kennismaking met een microprocessor. Natuurlijk ging er de nodige tijd zitten bij het inrichten van de ontwikkelomgeving (bv. drivers) en de koppeling met de computer (bv. kabels, kapotte aansluitingen). Maar uiteindelijk konden de eerste tests worden uitgevoerd en gingen de eerste ledjes aan of kon de lichtintensiteit worden gemeten.</p>
+<video width="100%" controls>
+<source src="iot1.mp4" type="video/mp4">
+<p>Your browser does not support HTML5 video. </video></p>
+<p>De workshops zijn ontwikkeld door <a href="https://www.smrlearn.nl/">SMR Learn</a> en worden op locatie georganiseerd. Het doel is studenten vertrouwd te maken met IoT-aspecten en te inspireren op een andere manier naar bedrijfsautomatisering te kijken.</p>
+<h4 id="projectteams">Projectteams</h4>
+<p>Deze ochtend hebben de studenten teams gevormd. De teams gaan woensdag tijdens de pitchdag praten met de verschillende opdrachtgevers. De studenten hebben zelf een systeem bedacht om de verschillende interesses te inventariseren en koppelingen te maken tussen teamleden en projecten. De definitieve configuratie zal gedurende de komende twee weken tot stand komen.</p>
+<p><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vR9yk20oWBR7gP5JxL1DyvWCLVDdmF-PqBVkTD234AXKTA3swPbSC5w0eC4zybSmxiw5wTHqjM8GPxz/pubhtml" target="_blank"><img src="projects.png" /></a></p>
+<hr>
+<h3 id="september-2018---start-msi-informatie-pitchdag">3 september 2018 - Start MSI / informatie Pitchdag</h3>
+<h5 id="we-zijn-begonnen">We zijn begonnen!</h5>
+<p>De vijfde versie van MSI is vandaag officieel gestart. Met vier kerndocenten, meer dan <a href="https://minorsmart.github.io/sep2018/docs/onderwijs/inschrijvingen.nb.html" target="_blank">25 studenten</a> en tal van externe experts, coaches en trainers gaan we meehelpen Smart Industry in onze regio vorm te geven. Vandaag was vooral tijd gereserveerd om elkaar te leren kennen, de verwachtingen omtrent samenwerking en communicatie uit te spreken en instructies te geven bij de verschillende leer- en werkomgevingen.</p>
+<p>Zoals dat gaat waren er wat technologische hobbels (wifi werkte soms niet, studenten kregen geen toegang, etc). De ervaring leert echter ook dat dit zich gedurende een paar dagen oplost.</p>
+<p>Deze week gaan de studenten meten in hoeverre ze voorbereid zijn op hun opdracht. Ze gaan de volgende vragen beantwoorden:</p>
+<ol type="1">
+<li>Waarom vind je het onderwerp Smart Industry boeiend?</li>
+<li>Wat wil je met het onderwerp gaan doen?</li>
+<li>Over welke relevante kennis en vaardigheden beschik je al en op welke vlakken ga je jezelf ontwikkelen?</li>
+<li>Welke partners heb je nodig en hoe vind je die?</li>
+</ol>
+<p>Ze leren hoe ze bovenstaande vragen kunnen onderzoeken, hoe ze de antwoorden het beste kunnen communiceren en met welke moderne technologieën en methodes dit kan. We hebben alvast een kleine inventarisatie gemaakt van de kennis die binnen de groep aanwezig is:</p>
+<p><img src="kennis.jpeg" /></p>
+<p><br> Onze eerste indruk vandaag: we gaan werken met een groep betrokken, open, sociale, spontane en leergierige ‘Smarties’ die staan te popelen om hun handen uit de mouwen te steken.</p>
+<h5 id="pitchdag">Pitchdag</h5>
+<p>Op 12 september zijn alle praktijkpartners uitgenodigd om kennis te komen maken met de nieuwe lichting ‘Smarties’. Bij deze gelegenheid zullen eerste koppelingen worden gelegd tussen de aangeboden opdrachten en de verschillende teams en kan contactinformatie worden uitgewisseld. We starten om 9:00u op de Ruitenberglaan 31 te Arnhem in het Auditorium (<strong>A304</strong>) met de verschillende pitches.</p>
+<div class="resp-container">
+<iframe class="resp-iframe" src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d78623.37656414049!2d5.879370176847916!3d51.9890087293812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x47c7a4659a1352a3%3A0x25edd5cadd934e41!2sRuitenberglaan+31%2C+6826+CC+Arnhem!3m2!1d51.9890295!2d5.9494096999999995!5e0!3m2!1sen!2snl!4v1535982631834" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+</div>
+<p><br> Om 11:30u gaan we na een korte pauze door in lokaal <strong>D308</strong> voor speeddatesessies. Tussendoor zal een lichte lunch worden geserveerd. Om 14:00u eindigt het programma. Voor meer informatie kan contact opgenomen worden met de organisatie via <a href="mailto:marlous.vandentooren@han.nl">marlous.vandentooren@han.nl</a>.</p>
+<hr>
+<h3 id="juni-2018---msi-pitchdag">23 juni 2018 - MSI Pitchdag</h3>
+<p>Op <strong>woensdag 12 september</strong> zal de MSI Pitchdag plaatsvinden. Ben je één van de partners die een project heeft aangeleverd? Blokkeer dan alvast deze datum in je agenda.</p>
+<p>Alle partners krijgen kort de gelegenheid hun project toe te lichten. Via een systeem van speeddates wordt vervolgens de match gemaakt tussen projecteigenaar en onderzoeksteam.</p>
+<p>We beginnen om 9:00u en het programma duurt tot 14:00u. Vanaf 12:00u zal een lichte lunch worden aangeboden. In de laatste week van augustus zal nog een reminder naar alle contactpersonen van onze partnerorganisaties worden gestuurd met een mogelijkheid tot bevestiging van deelname.</p>
+<hr>
+<h3 id="juni-2018---msi-201819">23 juni 2018 - MSI 2018/19</h3>
+<p>Op 3 september start de vijfde editie van MSI. Een groep van 31 studenten met <a href="https://minorsmart.github.io/sep2018/docs/onderwijs/inschrijvingen.nb.html">verschillende achtergronden</a> gaan onderzoeken en ontdekken hoe met nieuwe technologieën waarde kan worden gecreëerd.</p>
+<p>Het wordt wederom een vol programma. Alle deelnemers worden de eerste zes weken getraind in web development, Big Data, IoT en nieuwe modellen voor innovatie, samenwerking en waardecreatie. Tussendoor maken ze kennis met onze partners uit de Business Community in de regio, nemen de projectopdrachten aan en voeren een verkennend onderzoek uit.</p>
+<p>Vanaf week 7 gaan de deelnemers in teams van twee bij de partnerorganisaties werken aan hun opdracht. Zowel vanuit de organisatie als vanuit de HAN wordt begeleiding aangeboden. Het team is echter zelf verantwoordelijk voor de organisatie hiervan. Dit betekent dat van te voren goede afspraken moeten worden gemaakt over de overlegstructuur en het communicatieplan.</p>
+<p>Uiteindelijk dienen de deelnemers aan te tonen dat ze over een set van <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQU6O-kOAqHNLl6i6RV8E--fa9NhidcuSnQybCV8Sr8b7HYTSti7gQvfXkOToUyFLyS44o8AFrIxruB/pubhtml">Smart competenties</a> beschikken. Dit doen ze door zelf gedurende de minor bewijzen te verzamelen en deze in een online portfolio vast te leggen. MSI partners kunnen toegang krijgen tot dit materiaal. Neem hiervoor contact op met Witek ten Hove.</p>
+<p>Wekelijks wordt één dag gereserveerd voor kennisontwikkeling. We gaan dan met de hele groep inspiratie op doen. Bijvoorbeeld door bedrijven te bezoeken die Smart Industry hebben toegepast op hun bedrijfsmodel of -processen. Of door trainingen en workshops op het gebied van nieuwe technologieën bij één van onze kennispartners. Dit jaar werken we bijvoorbeeld weer samen met het <a href="http://www.fablabarnhem.femplaza.nl/">HAN Fablab</a> en de <a href="https://www.smrdelft.nl/">Minor Smart Manufacturing en Robotics</a> van de Haagse Hogeschool.</p>
+<p>Dit <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vTC-MphJx_bAlpsVAd9b1uc62w7fAXWQDiLe6oRi8HAtW8IEaT569VKrQlGtorjtGL0b6ySCF_Kab_n/pubhtml">schema</a> geeft een overzicht van het totale educatieve programma. Het is een dynamisch document. Zodra data en activiteiten bekend worden, zullen deze hier toegevoegd worden.</p>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom"></div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
