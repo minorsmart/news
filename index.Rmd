@@ -26,6 +26,27 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 </p>
 <hr>
 
+### 23 oktober 218 - Excursie BIT / QING-workshop in Technova College
+
+Woensdag 17 oktober zijn de minor-studenten gastvrij ontvangen door <a href="https://www.bit.nl/" target="_blank">BIT</a> in Ede om kennis te maken met een leverancier datacentrum ICT-diensten. In de BIT-datacentra kunnen bedrijven hun netwerksystemen en serversystemen plaatsen voor websites, applicaties en ‘private’ clouds. BIT beschikt over drie modern ingerichte datacentra waar 24/7 gegarandeerde zekerheid word gegarandeerd en is gerealiseerd voor stroom, temperatuurcontrole (koeling), brandbeveiliging, toegangsbeveiliging en gezekerde snelle netwerkverbindingen naar alle belangrijke Internet Exchanges (koppelpunten).
+
+Een van die centra staat in Ede bij het hoofdkantoor van BIT waar de minorstudenten op bezoek waren. Na een gastcollege over de structuur en belangrijkste protocollen, services en kenmerken van ‘Het internet’ mochten we ook onder begeleiding door de dikke kluisdeuren in het streng beveiligde datacentrum ervaren hoe de honderden servers in hun racks permanent de rekenkracht en communicatie voor vele bedrijven leveren.
+
+De warmteproductie in de kluis was goed zichtbaar en voelbaar vooral bij de speciale cryptomining-servers die uitsluitend met veel rekenkracht (miljoenen processorinstructies per seconde: MIPS) unieke getallen berekenen. Die getallen worden dan als digitale munten ‘verkocht’ op daarvoor ingerichte handelsbeurzen. Als de capaciteit in het datacentrum vol wordt benut neemt het evenveel energie uit het electriciteitsnet op als het naastgelegen dorp Bennekom! Zeer indrukwekkend om te zien, wat er allemaal voor nodig is om de 24/7 continuiteit voor alle digitale diensten van bedrijven te garanderen.
+ 
+![](bit1.png)
+
+Na middagpauze werden we ontvangen op het Technova College in Ede. Daar presenteerde het bedrijf <a href="https://www.qing.nl/" target="_blank">QING</a> voor de minor studenten MSI en de mbo-studenten ICT en Mechatronica een gastcollege over hun projectaanpak en de toepassing van simulatie in het bijzonder voor technische  bedrijfsprocessen. In een interactieve enquete werd de mening van het publiek op de voorliggende thema’s gepeild.
+
+![](technova.png)
+ 
+Na het gastcollege kregen de minor-studenten de gelegenheid hun projectcasus te bespreken met de studenten van het Technova College. Dat leidde voor sommige projecten tot een interessante kennismaking en suggesties en adviezen voor de projectaanpak en de toepassing van simulatie.
+
+Ongetwijfeld vertrokken de deelnemers met nieuwe ervaringen vanuit het Technova College huiswaarts. Enkele projectgroepen maken nog graag gebruik van het QING-aanbod om in het project waar mogelijk bij te dragen aan een simulatie-adviestraject.
+
+![](qing1.jpg)
+<hr>
+
 ### 1 oktober 2018 - Excursie Smart City / STRIJP-S in Eindhoven
 
 Dinsdag 25 september vroeg op pad, want om 8.30u vertrok de bus met minor studenten en enkele medewerkers van partner bedrijven naar Eindhoven voor een excursie naar een Smart-City in Ontwikkeling. De gemeente Duiven was de gastheer die deze dag organiseerde voor medewerkers van bedrijven, de gemeente Duiven en studenten van de Minor Smart Industry. 
@@ -58,7 +79,7 @@ bs_carousel(id = "bmc", use_indicators = TRUE) %>%
   bs_append(content = bs_carousel_image(src = "plugincity.jpeg"))
 ```
 
-
+<hr>
 
 ### 1 oktober 2018 - Business Model Canvas
 
@@ -95,6 +116,7 @@ bs_carousel(id = "bmc", use_indicators = TRUE) %>%
   bs_append(content = bs_carousel_image(src = "bmc.JPG"))
 ```
 
+<hr>
 
 ###  24 september 2018 - Planttevredenheid
 Nee, in de titel staat geen typefout. Onze *Smarties* hebben de afgelopen drie weken gewerkt aan een planttevredenheidsysteem m.b.v. IoT. Via sensoren kan het welzijn van een plant worden gemeten, bijv. aardevochtigheid en lichtintensiteit. Met een app op de telefoon kunnen de licht- en vochtigheidssensor gemonitord worden en kunnen de lamp en waterpomp aangestuurd worden.<br>
@@ -107,6 +129,7 @@ Om de sensoren uit te lezen en licht- en watertoevoer aan te sturen wordt een <a
 
 De workshops *IoT Starters* is ontwikkeld door <a href="https://www.smrlearn.nl/" target="_blank">SMRLearn</a> en wordt verzorgd door <a href="https://www.linkedin.com/in/tim-geers-0316b4ab/?originalSubdomain=nl" target="_blank">Tim Geers</a>. Dit semester zullen nog een aantal sessies worden georganiseerd waarin studenten de expertise van Tim kunnen inzetten bij IoT-vraagstukken, die zij tijdens het project tegenkomen.
 
+<hr>
 
 ###  17 september 2018 - Verslag Pitchdag en vervolg
 Op 12 september hebben onze partners uit het werkveld hun projecten voorgesteld aan de deelnemers van de minor. We hebben weer een breed en interessant aanbod aan <a href="https://minorsmart.github.io/pitch/" target="_blank">Smart Industry vraagstukken</a> aangeboden gekregen.
@@ -122,6 +145,8 @@ Ieder team krijgt zowel vanuit het bedrijf als de HAN coaching aangeboden. De ke
 Studenten werken met het project aan bewijzen waarmee ze <a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQU6O-kOAqHNLl6i6RV8E--fa9NhidcuSnQybCV8Sr8b7HYTSti7gQvfXkOToUyFLyS44o8AFrIxruB/pubhtml?gid=1883503874&single=true" target="_blank">Smart Industry competenties</a> kunnen aantonen. Bij voldoende niveau worden uiteindelijk 30 studiepunten toegewezen. Deze staan voor een semester full-time studeren (40 uur per week).
 
 In volgende nieuwsitems zullen teams en opdrachtgevers zich nader voorstellen en worden de projecten en de voortgang besproken. 
+
+<hr>
 
 ###  10 september 2018 - Workshop IoT / Projectteams
 
@@ -176,6 +201,7 @@ Op 12 september zijn alle praktijkpartners uitgenodigd om kennis te komen maken 
 Om 11:30u gaan we na een korte pauze door in lokaal **D308** voor speeddatesessies. Tussendoor zal een lichte lunch worden geserveerd. Om 14:00u eindigt het programma. Voor meer informatie kan contact opgenomen worden met de organisatie via marlous.vandentooren@han.nl.
 
 <hr>
+
 ###  23 juni 2018 - MSI Pitchdag
 
 Op **woensdag 12 september** zal de MSI Pitchdag plaatsvinden. Ben je één van de partners die een project heeft aangeleverd? Blokkeer dan alvast deze datum in je agenda.
