@@ -18,6 +18,7 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+library(kableExtra)
 ```
 <h1 class="welkom toc-ignore">Welcome Smart!</h1>
 
@@ -26,7 +27,32 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 </p>
 <hr>
 
-### 23 oktober 218 - Excursie BIT / QING-workshop in Technova College
+### 5 november 2018 - Pitstop 1 Minor Smart Industry
+
+Vrijdag 26 Oktober 2018 - *Een verslag van Bart Dijken en Bram Marissink*
+
+Inmiddels zitten de 6 weken intensieve les over het onderwerp Smart Industry er al een tijdje op en zijn alle projectgroepjes begonnen bij hun opdrachtgever. Om te kijken hoe ver iedereen is en elkaar te helpen bij mogelijke problemen is er een pitstop georganiseerd.
+
+Tijdens deze bijeenkomst waren alle groepjes aanwezig en ook de 6 vakdocenten. De datum van de pitstop is geprikt door de docenten van de minor maar vervolgens hebben de studeten zelf het programma in elkaar gezet en onderling gezorgd voor een goed georganiseerde pitstop. 
+
+Op de pitstop kreeg ieder groepje ongeveer 10 minuten de tijd om de voortgang van hun opdracht te presenteren. Vervolgens kon de groep hier vragen over stellen en tips geven. Daarnaast was er natuurlijk ook ruimte voor de projectgroepjes om de medestudente te vragen om hulp en zo te profiteren van elkaars kennis. 
+
+Hieronder de projecten per groep en daarbij de organisatie waar de studenten het project voor doen:
+
+```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+psDF <- read.csv("pitstop1.csv", sep = ";")
+kable(psDF, caption = "Tabel 1 - Projecten Minor Smart Industry") %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+Om een goed beeld te krijgen van wat de groepjes hebben gepresenteerd staat <a href="https://drive.google.com/drive/folders/1H9mgWAmd4dVfMqCGi1ZlfFbGoPXfkJjF?usp=sharing" target="_blank">hier</a> een link naar een google drive map waar alle groepjes de presentaties hebben neergezet. De presentaties zijn verdeeld over verschillende mappen. De mappen hebben de naam van het bedrijf waar het project wordt uitgevoerd.
+
+Alle groepjes hebben de gekregen feedback genoteerd en zijn inmiddels druk met het verwerken van deze tips. Daarnaast wordt er binnenkort weer een nieuwe datum gekozen voor de tweede pitstop. Waar de eerste pitstop vooral gericht was op de opzet van de opdracht en het plan van aanpak, zal de tweede pitstop meer gaan over de inhoud van de opdracht. Wanneer de tweede pitstop is geweest komt hierover ook een update in de nieuwsbrief.
+
+<hr>
+
+### 23 oktober 2018 - Excursie BIT / QING-workshop in Technova College
 
 Woensdag 17 oktober zijn de minor-studenten gastvrij ontvangen door <a href="https://www.bit.nl/" target="_blank">BIT</a> in Ede om kennis te maken met een leverancier datacentrum ICT-diensten. In de BIT-datacentra kunnen bedrijven hun netwerksystemen en serversystemen plaatsen voor websites, applicaties en ‘private’ clouds. BIT beschikt over drie modern ingerichte datacentra waar 24/7 gegarandeerde zekerheid word gegarandeerd en is gerealiseerd voor stroom, temperatuurcontrole (koeling), brandbeveiliging, toegangsbeveiliging en gezekerde snelle netwerkverbindingen naar alle belangrijke Internet Exchanges (koppelpunten).
 
