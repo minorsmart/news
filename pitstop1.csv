@@ -1,15 +1,21 @@
-Studenten;Bedrijf;Onderwerp
-Henry van Bragt & Stefan Reitsma;Pillen;PDC-Mobiel
-;;Dashboard voor planning
-Evelien van Neutigem, Suzanne Wielemaker & Laura Stolk;Internethuis;Innovatief IoT lab ontwikkelen
-Rosan Lamouchi &;Gemeente Duiven;Verkeersstromen industriepark Duiven
-Josh van Marle;;
-Bart Dijkman & ;Besite;Automatisering van het online customer service proces
-Bram Marissink;;
-Lina Seljogi & ;Q-concepts;Structuur organisatie optimaliseren
-Niels van Vals;;
-Marno Groenhof & Joury Mariman;M-Prise;Proces optimalisatie glastuinbouw
-Mieke van Corven & Jamie van Brienen;Bluehub;Onkruid detectie
-Bram Gradussen, Jeffrey de Wit & ;NXP;Automatiseren configuratie systeem
-Nicky van Middelkoop;;
-Benno Schuuring & Tom Heerkens;Eijgenhuijsen;Digitaal schade meldsysteem
+Studenten,Bedrijf,Onderwerp
+Henry van Bragt & Stefan Reitsma,Pillen,"PDC-Mobiel / 
+ Dashboard voor planning"
+"Evelien van Neutigem, Suzanne Wielemaker & Laura Stolk",Internethuis,Innovatief IoT lab ontwikkelen
+"Rosan Lamouchi &
+ Josh van Marle",Gemeente Duiven,Verkeersstromen industriepark Duiven
+"Bart Dijkman &
+ Bram Marissink",Besite,Automatisering van het online customer service proces
+"Lina Seljogi &
+ Niels van Vals",Q-concepts,Structuur organisatie optimaliseren
+Marno Groenhof & Joury Mariman,M-Prise,Proces optimalisatie glastuinbouw
+Mieke van Corven & Jamie van Brienen,Bluehub,Onkruid detectie
+"Bram Gradussen, Jeffrey de Wit &
+ Nicky van Middelkoop",NXP,Automatiseren configuratie systeem
+Benno Schuuring & Tom Heerkens,Eijgenhuijsen,Digitaal schade meldsysteem
+"Pascal Greven &
+ Daan van Asperen",Metaflex doors,Proces verbeteren door middel van LEAN
+"Roy Lekkerkerker &
+ Jesse van de Ven",Perfect,ERP-systeem ontwikkelen
+Thijs van den Berg & Max Poortman,Digifab,Toepassen van IoT voor inzicht in het productieproces
+Ronald van Os,ATAG,Product maintenance

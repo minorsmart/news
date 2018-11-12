@@ -40,7 +40,7 @@ Op de pitstop kreeg ieder groepje ongeveer 10 minuten de tijd om de voortgang va
 Hieronder de projecten per groep en daarbij de organisatie waar de studenten het project voor doen:
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
-psDF <- read.csv("pitstop1.csv", sep = ";")
+psDF <- read.csv("pitstop1.csv", sep = ",")
 kable(psDF, caption = "Tabel 1 - Projecten Minor Smart Industry") %>%
   kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
 ```
