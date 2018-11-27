@@ -27,6 +27,42 @@ Volg hier de ontwikkelingen bij de HAN Minor Smart Industry. Wat is er gebeurd e
 </p>
 <hr>
 
+### 26 november 2018 - Verslag inspiratiesessies Beinformed en Accenture
+
+Vrijdag 23 november heeft de Minor Smart Industry een interessante workshop gehad van Geert Rensen, van Beinformed en Kees van Mansom, van Accenture. Tijdens deze bijeenkomst heeft de minorgroep gekeken naar de aspecten van modellering van financiële tools, App modellering en heeft de groep vragen kunnen stellen over de verschillende projecten waar de minorgroep momenteel mee bezig is. Verder heeft Geert Rensen en Kees van Mansom nog uitgebreid stilgestaan, bij automatisering in relatie tot innovatie.
+
+#### Modellering
+Modellering houdt in, dat via een brainstorm sessie het eerste prototype wordt ontwikkeld, zonder dat hierbij codering aan te pas komt. Indien het achterliggende proces van de applicatie duidelijk is, wordt de modelleer output concreter en tastbaar. Het is daarom belangrijk, dat eerst het (achterliggende) proces helder is! 
+Hieronder enkele tools waarmee het mogelijk is om te modelleren:
+
+1.	Pencil is een opensource tool waarbij wel enige programmeer kennis vereist is:  [http://pencil.evolus.vn](http://pencil.evolus.vn)
+2.	Moqups is een van de meest populaire tool, helaas is deze tool alleen online beschikbaar: 
+[https://moqups.com](https://moqups.com)
+3.	Mockingbird is een prototyping tool. Deze tool is ook alleen online beschikbaar! Deze applicatie is ideaal voor beginners! Maar geavanceerde prototypes kunnen hier ook meer gemaakt worden: 
+[https://gomockingbird.com/](https://gomockingbird.com/) 
+4.	Wireframe is een relatief simpele applicatie en is vrij beperkt: 
+[https://wireframe.cc](https://wireframe.cc)
+
+Vanuit het eerste prototype wordt er geëvalueerd en wordt het idee tastbaar. Voordat het prototype wordt omgezet in een definitief model, is het belangrijk dat het prottype wordt gevalideerd bij de eindgebruiker! Dit voorkomt dat latere aanpassingen noodzakelijk zijn.
+
+#### Voorbeeld van automatisering
+Kees van Mansom heeft gedurende deze bijeenkomst nog een concreet voorbeeld gegeven, waarbij een medewerker een andere functie kan vervullen, zijn (oude) baan is overbodig geworden. Of deze baan heeft een andere invulling gekregen, omdat automatisering zijn oude functie heeft overgenomen.
+
+#### Case automatisering 
+In de beveiligingssector werden de camerasystemen handmatig gemonitord door medewerkers. Met de komst van beeldherkenning wordt zijn situatie overbodig.
+Hoe ziet de oude situatie eruit?
+In de oude situatie wordt de situatie gemonitord door een medewerker, die continu camerabeelden aan het analyseren is. Dit is saai- en vermoeiend werk voor de medewerker, omdat de medewerker continu met het beeldscherm bezig is zonder dat er interactie plaatsvindt.
+
+![](beinformed1.png)
+ 
+Hoe ziet de nieuwe situatie eruit?
+In de nieuwe situatie is de ‘monitoringsfunctie’ en de actie ‘meldkamer bellen’ komen te vervallen. Door middel van automatische beelddetectie en slimme-analyses is het systeem in staat om het object, handeling of persoon te herkennen. Waardoor het systeem automatisch een notificatie kan genereren voor de beveiliger in het veld. Deze notificatie kan bijvoorbeeld worden uitgelezen met behulp van een smartphone. Hieronder is een schema weergegeven ter verduidelijking. 
+
+![](beinformed2.png)
+
+Geert van Rensen en Kees van Mansom hebben een motiverende inspiratiesessie gehouden! De minorgroep heeft deze bijeenkomst dan ook als zinvol ervaren! Kees en Geert: bedankt voor jullie komst!
+
+
 ### 12 november 2018 - Aankondiging Pitstop 2 Minor Smart Industry
 
 Wil je samen met ons je Smart ambities realiseren? Zoek je hiervoor inspiratie? Kom op VRIJDAG 11 JANUARI 2019 naar de Hogeschool van Arnhem en Nijmegen voor een ontmoeting met Smart Industry. Kijk <a href="https://minorsmart.github.io/pitstop/#/" target="_blank">hier</a> voor meer informatie en meld je aan (plaats zolang de voorraad strekt).
